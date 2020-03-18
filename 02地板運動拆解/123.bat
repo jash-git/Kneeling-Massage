@@ -1,0 +1,6 @@
+ffmpeg -ss 00:03:36 -t 00:00:29 -i "02.mp4" -vcodec copy -acodec copy  "02_01.mp4"
+ffmpeg -ss 00:04:06 -t 00:00:10 -i "02.mp4" -vcodec copy -acodec copy  "02_02.mp4"
+ffmpeg -ss 00:04:15 -t 00:00:11 -i "02.mp4" -vcodec copy -acodec copy  "02_03.mp4"
+ffmpeg -ss 00:04:27 -t 00:00:11 -i "02.mp4" -vcodec copy -acodec copy  "02_04.mp4"
+ffmpeg -ss 00:04:38 -t 00:00:19 -i "02.mp4" -vcodec copy -acodec copy  "02_05.mp4"
+ffmpeg -ss 00:04:57 -t 00:00:23 -i "02.mp4" -vcodec copy -acodec copy  "02_06.mp4"
